@@ -6,5 +6,5 @@ return [
     'dbname' => getenv('DB_NAME') ?: 'mvc_db',
     'username' => getenv('DB_USER') ?: 'root',
     'password' => getenv('DB_PASSWORD') ?: '',
-    'charset' => 'utf8mb4'
+    'charset' => 'utf8mb4' 
 ];
